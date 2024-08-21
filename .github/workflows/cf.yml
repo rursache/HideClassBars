@@ -1,14 +1,8 @@
 name: upload to curseforge
 on:
   workflow_dispatch:
-  push:
-    branches:
-    - master
-    tags:
-    - '*'
-    paths-ignore:
-    - ".github/**"
-    - "README.md"
+  release:
+    types: [published]
 jobs:
   release:
     runs-on: ubuntu-latest
