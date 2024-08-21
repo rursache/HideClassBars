@@ -1,0 +1,8 @@
+## Interface: 110002
+## Title: Hide Class Bars
+## Notes: Hides class-specific bars (stance, shapeshift, stealth, etc.)
+## Author: Radu Ursache
+## Version: 1.0.0
+## SavedVariables: HideClassBarsDB
+
+HideClassBars.lua
